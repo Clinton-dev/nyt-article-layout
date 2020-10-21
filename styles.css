@@ -52,7 +52,37 @@ footer {
 }
 
 nav {
-  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: flex-start;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.left-nav {
+  border: 2px solid #968b99;
+}
+
+.center-nav {
+  border: 2px solid #8f17b0;
+}
+
+.right-nav {
+  border: 2px solid #820f8c;
+}
+
+.right-nav button {
+  background-color: rgba(62, 98, 130, 0.9);
+  color: #fff;
+  /* font-weight: bold; */
+  border-width: 0;
+  font-size: 0.8em;
+  padding: 8px;
+  border-radius: 3px;
 }
 
 header {
